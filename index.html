@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header"> 
+        <div id="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#divflex">Skills</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <img id="img" src="https://cdn-icons-png.flaticon.com/128/2734/2734822.png" onclick="closemenu()">
+                </ul>
+                <img id="img0" src="https://cdn-icons-png.flaticon.com/128/10080/10080458.png" onclick="openmenu()">
+            </nav>
+            <div id="page1">
+                <div class="header-text">
+                    <p>ELECTRONICS AND TELECOMMUNICATION ENGINEER(pursuing)</p>
+                    <H1>Hello, I'm <span>Vaishnavi</span> Nale</H1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    ------------about me-------------  -->
+    <div id="page2">
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/myimg.png.jpeg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="color" class="sub-title">About Me :</h1>
+                        <p>
+                            
+                            Hi, my name is Vaishnavi Nale. I am currently a first-year college student pursuing degree in Electronics and Telecommunication Engineering at MIT Academy of Engineering, Alandi.
+                            <br>
+                            As an engineering student, I enjoy learning new things, working on creative projects, and solving technical problems in programming and electronics. My branch mainly focuses on coding, programming, circuits, and communication systems, which makes it exciting to explore and develop new technologies.
+                            <br>
+                            <tab> I love experimenting with new ideas, finding innovative solutions, and applying my knowledge to real-world challenges. Whether it's designing circuits, coding, or solving technical issues, I always enjoy the process of learning and improving my skills.
+                            </tab><br>
+
+                        </p>
+                        <div class="tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                         <p class="tab-links" onclick="opentab('Goals')">Goals</p>
+                         <p class="tab-links" onclick="opentab('Objectives')">Objectives</p>
+                        </div>
+                        <div class="tab-content" id="Education">
+                             <ul>
+                                <li><span>MIT Acadamy engineering Alandi (2024-Present) </span> <br>Pursuing degree of Electronics and Telecommunicaton Engineering</li>
+                                <li><span>Programming language :</span><br>C, Python ,C++ , HTML ,CSS , Javascript , arduino coding language </li>
+                                <li><span>Electronics Tools :</span><br>Kikad , multisim , proteus , Tinkerkad</li>
+                                <button type="submit" class="btn3"> <span><a href="My_Resume.pdf">Download Resume</a> </span></button> 
+                                  
+                            </ul> 
+                         </div>
+                         <div class="tab-content" id="Goals">
+                            <ul>
+                                <li><span>Technical Goal:</span><br>
+                                    Build skills in electronics, communication, and coding.</li>
+                                    
+                                   <li> <span> Professional Goal:</span><br>
+                                    Intern in a top telecom or electronics company.</li>
+                                    
+                                   <li> <span>Career Goals:</span><br>
+                                    Start a tech role, work on innovations, and pursue higher studies.</li>
+                            </ul>
+                         </div>
+                         <div class="tab-content" id="Objectives">
+                            <ul>
+                                <li><span>1.</span>Build strong technicalskill in electronics and coding</li>
+                                <li><span>2.</span>Gain industryexperience through internships.</li>
+                               <li><span>3.</span>Apply knowledge to real-world industry challenges </li>
+                               <li><span>4.</span>Grow through hands-on projects and grow professional network.<br></li>
+                               <li><span>5.</span> Keep learning and stay industry-ready. <br></li>
+                            </ul>
+                         </div>  
+                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------------skill------------------------------- -->
+    <div id="divflex">
+        <h1 id="h1s">Skills :</h1>
+    <p id="p1s">It is skills that make us different from the crowd and make us unique. Acquiring skills means adding an unfair advantage to ourselves.</p>
+    </div>
+    <div id="pageskill">
+        <div class="skills-section">
+            <h2>Programming language :</h2>
+            <p>I am a beginner in programming and currently learning the fundamentals of coding using languages like Python, C, and Java.</p>
+          
+            <div class="skill"><span class="skill-name">HTML</span>
+              <div class="progress-bar"><div class="progress" style="width: 90%;">90%</div></div>
+            </div>
+          
+            <div class="skill"><span class="skill-name">CSS</span>
+              <div class="progress-bar"><div class="progress" style="width: 90%;">90%</div></div>
+            </div>
+          
+            <div class="skill"><span class="skill-name">JavaScript</span>
+              <div class="progress-bar"><div class="progress" style="width: 30%;">30%</div></div>
+            </div>
+          
+            <div class="skill"><span class="skill-name">Python</span>
+              <div class="progress-bar"><div class="progress" style="width: 89%;">89%</div></div>
+            </div>
+          
+            <div class="skill"><span class="skill-name">C Language</span>
+              <div class="progress-bar"><div class="progress" style="width: 98%;">98%</div></div>
+            </div>
+          </div>
+          <div class="skills-section">
+            <h2>Electronics Tools :</h2>
+            <p> I am developing my programming skills to complement my hardware knowledge. learning new tools </p>
+          
+            <div class="skill"><span class="skill-name">Kikad</span>
+              <div class="progress-bar"><div class="progress" style="width: 82%;">82%</div></div>
+            </div>
+          
+            <div class="skill"><span class="skill-name">multisim</span>
+              <div class="progress-bar"><div class="progress" style="width: 70%;">70%</div></div>
+            </div>
+          
+            <div class="skill"><span class="skill-name">proteus</span>
+              <div class="progress-bar"><div class="progress" style="width: 30%;">30%</div></div>
+            </div>
+          
+            <div class="skill"><span class="skill-name">Tinkercad</span>
+              <div class="progress-bar"><div class="progress" style="width: 90%;">90%</div></div>
+            </div>
+          
+            <div class="skill"><span class="skill-name">arduino coding</span>
+              <div class="progress-bar"><div class="progress" style="width: 90%;">90%</div></div>
+            </div>
+          </div>
+          
+    </div>
+  <!-- ----------- project--------------- -->
+    <div id="Project">
+        <div id="page4">
+            <div id="head">
+            <h1 class="color" id="prohead">Project :</h1>
+            <P id="prop">1.Automatic Rain Sensing Wiper<br><br> </P> <p id="prop1">2.Automatic Water Tap <br> <br></P> <p id="prop2"> 3.Gesture controlled car <br> <br> </P> <p class="prop3"> <div id="flexs"> 4.My Joyful Sunday website</div><a class="btn4"  href="https://nalevaishanvi.github.io/My-Joyful-Sunday/"> my Work</a></p>
+            <br>
+            <img id="imgo1" src="images/automatic.png.png">
+            <img id="imgo2" src="images/gesture.png">
+           </div>
+           <div class="achi">
+           <h1 class="color" >Achivements <br>& certifications:</h1>
+           <div id="div1"><h3 id="achi1">C Language</h3><p>completed online c language cource</p></div>
+           <div id="div2"><h3 id="achi2">Python</h3><p>I have successfully completed Python cource provided by CISCO. <br>
+            <a href="images/Eds1.pdf">Certificate 1</a>
+            <a href="images/Eds2.jpeg">Certificate 2</a>
+        </p></div> 
+           <div id="div3"><h3 id="achi3">PCB simulation</h3><p>I have successfully done PCB simulation workshop using kikad</p></div>
+           <div id="div4"><h3 id="achi3">IYMC Participation</h3><p>Participated in the International Youth Math Challenge.<br>
+          <a href="images/ITMC.png.jpeg">Certificate</a>
+          </p></div>
+          <div id="div5"><h3 id="achi3">Nasscom certification</h3><p>I have successfully completed digital learning cource provided by Nasscom. <br><a href="images/Nasscom certificate.pdf">certificate</a></nasscom><br>
+            </p></div>
+         </div>
+
+         </div>
+        
+
+         <!-- -----------------------------Refrances------------------------------ -->
+         <div id="Refrances">
+            <div class="refer">
+                <h1 class="color" >Testimonal: </h1>
+                <p id="pr"> <span>-> </span> The unwavering support and wisdom of my teachers have been the foundation of my learning journey. Their insights, encouragement, and 
+                     dedication have 
+                    truly inspired me to explore, create, and grow. <br> <br>
+                    <span>-> </span>Equally, I appreciate my friends for being amazing collaborators—bringing in fresh ideas, energy, and teamwork that turned every project into an 
+                     exciting experience 
+                </p> </div>
+            <div class="refer">
+                <h1 class="color" >References : </h1>
+                <div id="divr1"><h3>Vinayak Kulkarni</h3><img src="images/vinayak kulkarni.webp" alt=""><p>Engineering Techology (AI) Faculty</p><a href="mailto:vbkulkarni@mitaoe.ac.in">Email</a></div>
+                <div id="divr2"><img src="images/Aarti.png" alt=""><p>I'm grateful to Aarti for her dedication, creativity, and hands-on support at every stage of project.</p></div>
+                <div id="divr3"><img src="images/Sakshi (2).png" alt=""><p>I'm truly grateful to sakshi, whose brilliant ideas and technical expertise brought life to our project.</p></div>
+            </div>
+         </div>
+         <!-- ------------contact me-------------- -->
+    </div>
+     <div id="page5">
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="color" id="sub-title">Contact Me :</h1>
+                    <p id="a"> <img id="img1" src="https://cdn-icons-png.flaticon.com/128/3178/3178158.png" alt=""><a href="mailto:202401070025@mitaoe.ac.in?subject=Inquiry&body=Hello%20Vaishnavi%20Nale">202401070025@mitaoe.ac.in</a>
+
+                    <p id="b"><img id="img2" src="https://cdn-icons-png.flaticon.com/128/831/831360.png" alt=""><a href="tel:+919359311725">+91 9359311725</a></p>
+                    <div id="social-media-icons">
+                      <img id="img3" src="https://cdn-icons-png.flaticon.com/128/1384/1384023.png" alt="">
+
+
+                         <img id="img4" src="https://cdn-icons-png.flaticon.com/128/1384/1384031.png" alt="">
+                         <img id="img5" src="https://cdn-icons-png.flaticon.com/128/1051/1051309.png" alt="">
+                         <img id="img6" src="https://cdn-icons-png.flaticon.com/128/1384/1384088.png" alt="">
+                         <!-- in all href pste link of all url -->
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit </button>
+                    </form>
+                     <span id="msg"></span>
+                </div>
+                <div id="copywrite">
+                    <p>Copyright © Vaishnavi Nale| MITAOE 2024  </p>
+                  </div>
+            </div>
+        </div>
+      </div>
+     </div>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwF6_R5NL9K8ZbdqfAu7uD5JE-pgveoGJMgL1G4_IOHtP2TVRPDmSGZr7_TryP4HiljpQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+       const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML= "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },10000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+       </script>
+      <script> 
+  
+             var tablinks = document.getElementsByClassName("tab-links");
+             var tabcontents = document.getElementsByClassName("tab-content");
+
+             function opentab(tabname) {
+                for (let tablink of tablinks) {
+                  tablink.classList.remove("active-link");
+                }
+                 for (let tabcontent of tabcontents) {
+                   tabcontent.style.display = "none";
+                 }
+             document.getElementById(tabname).style.display = "block";
+              event.currentTarget.classList.add("active-link");
+             }
+            document.getElementById("Education").style.display = "block";
+
+       </script>
+</body>
+</html>
