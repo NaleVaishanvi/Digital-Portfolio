@@ -17,7 +17,7 @@ body{
     object-fit: cover;
     width: 100%;
     height: 100vh;
-    background-image: url(images/entc.png);
+    background-image: url(entc.png);
     background-size: cover;
     background-position: center;
 }
@@ -96,7 +96,7 @@ body{
     color: #eff2f3;
  }
  .container{
-   background-image: url(images/photo5.png);
+   background-image: url(photo5.png);
  }
  .row{
     display: flex;
@@ -194,7 +194,7 @@ body{
 #pageskill{
   display : flex;
   margin-bottom: 80px;
-  background-image: url(images/photo5.png);
+  background-image: url(photo5.png);
 }
 #h1s{
   margin: 20px;
@@ -254,7 +254,7 @@ body{
    background: black;
    color: white;
    margin:20px;
-   background-image: url(images/photo5.png);
+   background-image: url(photo5.png);
  }
  #prohead{
      margin:20px 15px;
@@ -467,7 +467,7 @@ body{
   margin-bottom: 30px;
   height: 100%;
   width: 100%;
-  background-image: url(images/photo5.png);
+  background-image: url(photo5.png);
 }
 #divr1{
   height:  280px;
@@ -532,7 +532,7 @@ body{
 .refer{
   display: flex;
   margin-left: 50px;
-  /* background-image: url(images/photo5.png); */
+  /* background-image: url(photo5.png); */
   margin: 90px;
   margin-bottom: 30px;
   margin-top: 40px;
@@ -721,7 +721,7 @@ nav img{
 }
 @media only screen and (max-width : 600px){
    #header{
-      background-image: url(images/phone2.png);
+      background-image: url(phone2.png);
    }
    .header-text{
       margin-top: 100%;
@@ -872,7 +872,7 @@ nav img{
       margin-bottom: 30px;
       height: 100%;
       width: 100%;
-      background-image: url(images/photo5.png);
+      background-image: url(photo5.png);
     }
     #divr1{
       height:  280px;
